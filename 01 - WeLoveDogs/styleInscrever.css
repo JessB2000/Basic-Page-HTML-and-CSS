@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+#titulo-container {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 65px;
+    margin: 27px 15px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    font-family: 'Open Sans', sans-serif;
+    list-style-type: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+    margin: 49px 15px;
+}
+
+.corVerde {
+    color: #7ed321;
+    font-family: 'Raleway', sans-serif;
+}
+
+.boxone {
+    white-space: nowrap;
+}
+
+button {
+    border: 0;
+    background-color: #7ed321;
+    color: #1c4701;
+    width: 151px;
+    height: 40px;
+    border-radius: 15px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    padding-top: 9px;
+    padding-right: 32px;
+    padding-left: 32px;
+    padding-bottom: 9px;
+    margin: -9px 15px;
+    cursor: pointer;
+}
+
+.inscricao {
+    display: flex;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.dados {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: flex-end;
+}
+
+#nome-container {
+    display: flex;
+    flex-direction: row;
+    gap: 14px;
+}
+
+#idade-container {
+    display: flex;
+    flex-direction: row;
+    gap: 14px;
+}
+
+#email-container {
+    display: flex;
+    flex-direction: row;
+    gap: 14px;
+}
+
+#mensagem-container {
+    display: flex;
+    flex-direction: row;
+    gap: 14px;
+}
+
+.dados p {
+    width: 124px;
+    height: 50px;
+}
+
+input[type="text"],
+input[type="email"] {
+    border: 1px solid #9f9f9f;
+    height: 43px;
+    width: 418px;
+    border-radius: 7px;
+    padding-left: 13px;
+}
+
+.amadog {
+    border: 1px solid #9F9F9F;
+    height: 160px;
+    width: 433px;
+    box-sizing: border-box;
+    border-radius: 7px;
+    font-family: sans-serif;
+    background-color: #ffff;
+    resize: none;
+}
+
+#botao {
+    border: 0;
+    background-color: #7ed321;
+    color: #1c4701;
+    width: 141px;
+    height: 42px;
+    border-radius: 15px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    padding-top: 10px;
+    padding-right: 45px;
+    padding-left: 45px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    margin-left: 418px;
+}
+
+#escorpo-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+textarea {
+    padding-top: 12px;
+    padding-left: 13px;
+}
+
+::placeholder {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+#texto-container {
+    display: flex;
+    justify-content: center;
+}
